@@ -25,6 +25,10 @@ namespace Trivia.NetCore
                 }
             } 
             while (notAWinner);
+
+            if (Console.ReadKey().Key == ConsoleKey.Enter) 
+                System.Environment.Exit(0);
         }
+        
     }
 }
